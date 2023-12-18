@@ -1,0 +1,68 @@
+/* main - banner영역 - left */
+main {
+    width: 1151px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+main .left {
+    width: 770px; height: 350px;
+    margin-right: 20px;
+    position: relative;
+}
+main .left a {}
+main .left a img {}
+main .left .close {
+    background-color: #1e6cb3;
+    color:#fff;
+    padding: 4px 8px; border-radius: 5px;
+    position: absolute; right: 15px; bottom: 15px;
+}
+/* main - baneer영역 - right (top) */
+main .right {
+    width: 360px;
+}
+main .right .top {
+    position: relative; height: 230px;
+    margin-bottom: 10px;
+}
+main .right .top a {}
+main .right .top a img {}
+main .right .top span {
+    text-align: center;
+    color: #fff;
+}
+/* 확진자 */
+main .right .top > span:nth-of-type(1) {
+    width:140px; height: 13px; 
+    left: 30px; top: 84px;
+    position:absolute;
+}
+/* 추가 확진자 */
+main .right .top > span:nth-of-type(2) {
+    width:140px; height: 13px; 
+    right: 30px; top: 84px;
+    position:absolute;
+}
+/* 퇴원 */
+main .right .top > span:nth-of-type(3) {
+    width:94px; height: 13px; 
+    left: 30px; bottom: 58px;
+    position:absolute;
+}
+/* 추가 퇴원 */
+main .right .top > span:nth-of-type(4) {
+    width:94px; height: 13px; 
+    left: 145px; bottom: 58px;
+    position:absolute;
+}
+/* 사망 */
+main .right .top > span:nth-of-type(5) {
+    width:59px; height: 13px; 
+    right: 32px; bottom: 58px;
+    position:absolute;
+}
+/* main - baneer영역 - right (bottom) */
+main .right .bottom {}
+main .right .bottom a {}
+main .right .bottom a img {} 
