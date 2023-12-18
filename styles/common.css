@@ -1,0 +1,66 @@
+/* header */
+header {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width:1151px; height: 48px;
+}
+header .gnb {}
+header .gnb h1 {display: inline-block; margin-right: 18px;}
+header .gnb h1 > a {height: 48px;}
+header .gnb h1 > a img {}
+header .gnb a {margin-right: 16px; font-weight: 600;}
+header .gnb a:last-child {margin-right:0;}
+header .gnb > a {font-size:0.875rem;}
+header .lnb a {
+    font-size:0.875rem; margin-right: 16px; 
+    font-weight: 600;
+}
+header .lnb a:last-child {margin-right: 0;}
+/* main - left */
+main {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width:1151px; height: 119px;
+    position: relative;
+}
+main h1 {}
+main h1 a {}
+main h1 a img {}
+/* main - center */
+main form {}
+main form fieldset {}
+main form fieldset .search {
+    border: 4px solid #1e6cb3;
+    padding: 10px 20px; 
+}
+main form fieldset .search #search_form {width:340px; }
+main form fieldset .search a {}
+main form fieldset .search a img {}
+/* main - right */
+main .right {}
+main .right .btn {
+    border: 2px solid #1e6cb3;
+    padding: 7px 10px; 
+    position: absolute; right: 0;
+    font-size: 0.813rem;
+}
+main .right .btn #lang {}
+main .right .btn a {
+    background-color: #1e6cb3;
+}
+main .right .btn #btn_go {
+    padding:5px; 
+}
+main .right .text {
+}
+main .right .text p {
+    font-size:1.5rem; font-weight: 700;
+    margin-top: 40px;
+}
+main .right .text span {font-size: 0.813rem;}
